@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/musicCoverImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+         />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginStart="10dp"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:id="@+id/musicNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music Name"
+            android:textSize="16sp"
+            android:gravity="bottom"
+            android:textColor="#E6FFFFFF"
+
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/authorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author"
+            android:textSize="14sp"
+            android:gravity="bottom"
+            android:textColor="#B2FFFFFF"
+            android:layout_marginBottom="10dp"
+            android:padding="4dp" />
+    </LinearLayout>
+</FrameLayout>

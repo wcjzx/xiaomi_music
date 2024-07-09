@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/musicCardViewPager"
+        android:layout_width="390dp"
+        android:layout_height="127dp"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:overScrollMode="never" />
+    <LinearLayout
+        android:id="@+id/indicatorLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:background="@android:color/transparent" />
+</FrameLayout>
